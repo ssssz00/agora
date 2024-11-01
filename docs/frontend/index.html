@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" id="favicon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="agora">
+    <link rel="apple-touch-icon" href="logo192.png">
+    <link rel="manifest" href="manifest.json">
+    <title>agora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="root">
+        <div id="main" class="theme-fantic-dark" style="height: 100%;">
+            <div class="overlay">
+                <span class="overlay-close">[fechar]</span>
+                <div class="overlay-content">
+                    <h1>agora.fantic</h1>
+                    <p>agora.fantic é um chat experimental em tempo hiperreal e supersíncrono desenvolvido pelo grupo de pesquisa FANTIC.</p>
+                    <h2>Doações</h2>
+                    <p>O chat é livre para uso, mas existem custos de desenvolvimento e servidores. Doações são bem-vindas.</p>
+                    <p>
+                        <strong>Endereço:</strong> 0xC7535eFAa450987B705d00E0Ea8108C8F52b1dC6<br>
+                        <strong>Redes:</strong> Ethereum / Polygon / Base <br>
+                        <strong>Tokens:</strong> Stablecoins ou tokens nativos
+                    </p>
+                    <p>Caso prefira doar em BTC, XMR, SOL e etc favor enviar um e-mail para szszsz@nemnem.org ou contato@nemnem.org.</p>
+                    <h2>FAQ</h2>
+                    <p><strong>Vocês guardam mensagens?</strong><br>
+                        Só as últimas 500 mensagens são armazenadas.</p>
+                    <p><strong>Como eu mudo meu identificador único?</strong><br>
+                        Escreva <code>/help</code> para descubrir, ou use o menu lateral.</p>
+                    <p><strong>Encontrei um bug!</strong><br>
+                        O chat ainda está em desenvolvimento. Direcione os problemas para nosso
+                        <a href="" target="_blank" rel="noopener noreferrer">Discord</a> ou
+                        <a href="https://x.com/nemnemcorp" target="_blank" rel="noopener noreferrer">x</a>.
+                    </p>
+                    <p><strong>O que inspirou o Agora?</strong><br>
+                    <a href="https://chat.soma.cx" target="_blank" rel="noopener noreferrer">somachat</a>
+                    </p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="flex-all">
+                    <div class="information">
+                        <div class="about">
+                            <strong>agora.fantic.org</strong><br>
+                            Chat experimental hiperreal e supersíncrono.<br>
+                            <span class="read-more">leia mais</span>
+                        </div>
+                        <div class="donate">
+                            <strong>doações</strong><br>
+                            Qualquer token Ethereum / Matic / Base<br>
+                            0xC7535eFAa450987B705d00E0Ea8108C8F52b1dC6
+                        </div>
+                    </div>
+                    <div class="flex-content">
+                        <div class="flex-chat">
+                            <div class="mobile mono">
+                                <div class="mainwrapper">
+                                    <div class="mainbox">
+                                        <div class="chat" tabindex="0">
+                                            <div class="__w_theFlex">
+                                                <div class="__w_messages"></div>
+                                            </div>
+                                            <textarea class="__w_messageInput __w_preventToggle" placeholder="Connecting..." disabled></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar-toggle">menu</div>
+                                    <div class="sidebar">
+                                        <div class="settings">
+                                            <div class="setting-wrapper">
+                                                <div class="setting-wrapper-inner">
+                                                    <span class="title">Temas</span>
+                                                    <span class="options">
+                                                        <span class="radiosetting" data-theme="fantic">Diurno</span>
+                                                        <span class="radiosetting" data-theme="fantic-dark">Noturno</span>
+                                                    </span>
+                                                </div>
+                                            </div>                                        
+                                            <div class="setting-wrapper">
+                                                <div class="setting-wrapper-inner">
+                                                    <span class="title">Fonte</span>
+                                                    <span class="options">
+                                                        <span class="radiosetting" data-typeset="serif">Sans</span>
+                                                        <span class="radiosetting" data-typeset="mono">Mono</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="browser visible">
+                                            <div class="Browser_browser__dPf8S">
+                                                <div>
+                                                    <div class="sidebar-user-list">...</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/font_style.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</body>
+</html>
